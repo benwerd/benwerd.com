@@ -1,0 +1,10 @@
+
+body {
+    background-color: bisque;
+}
+
+@media(prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+    }
+}
