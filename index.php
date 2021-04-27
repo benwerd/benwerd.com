@@ -103,14 +103,15 @@
                 of startups (as well as starting a few of my own).
             </p>
             <p>
-                I'd love to be helpful if I can. <a href="mailto:ben@benwerd.com">Get in touch
-                at ben@benwerd.com</a>.
+                I'd love to be helpful if I can, and can advise on a retainer or equity basis.
+                <a href="mailto:ben@benwerd.com">Get in touch at ben@benwerd.com</a>.
             </p>
             <p>
                 I believe in inclusivity, building real equity, and subverting systemic oppression by giving
                 a voice and a platform to diverse peoples. I will not knowingly work on projects that cause harm
                 to marginalized communities or persist existing inequalities, nor with project founders who do not
-                agree with those goals. I advise teams led by underserved founders for free.
+                agree with those goals. Because I care deeply about helping build a more inclusive ecosystem,
+                I advise early-stage teams led by underserved founders for free.
             </p>
         </div>
     </body>
