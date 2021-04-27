@@ -107,10 +107,10 @@
                 <a href="mailto:ben@benwerd.com">Get in touch at ben@benwerd.com</a>.
             </p>
             <p>
-                I believe in inclusivity, building real equity, and subverting systemic oppression by giving
+                <strong>NB:</strong> I believe in inclusivity, building real equity, and subverting systemic oppression by giving
                 a voice and a platform to diverse peoples. Consequently, I won't knowingly work on projects
                 that cause harm to marginalized communities or persist existing inequalities, nor with project
-                founders who do not agree with those goals. I'm learning all the time.
+                founders who do not agree with those goals.
             </p>
         </div>
     </body>

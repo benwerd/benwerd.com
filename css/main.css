@@ -2,7 +2,7 @@
 body {
     background-color: bisque;
     color: #333;
-    width: 100%;
+    max-width: 100vw;
     overflow-x: hidden;
 }
 
@@ -42,7 +42,6 @@ p {
     font-style: normal;
     font-size: calc(10px + 1vw);
     padding-left: 1vw;
-    max-width: 60%;
 }
 
 a {
@@ -58,12 +57,14 @@ input, button {
 .desc {
     margin-top: 2em;
     animation: fadeIn 2.5s;
+    max-width: 60%;
 }
 
 .but-wait-theres-more {
     margin-top: 3em;
     animation: fadeIn 4s;
     margin-bottom: 14em;
+    max-width: 60%;
 }
 
 .ben {
