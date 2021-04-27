@@ -61,7 +61,7 @@ input, button {
 }
 
 .but-wait-theres-more {
-    margin-top: 14em;
+    margin-top: 3em;
     animation: fadeIn 4s;
     margin-bottom: 14em;
 }
