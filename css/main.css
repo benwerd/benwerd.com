@@ -1,10 +1,143 @@
 
 body {
     background-color: bisque;
+    color: #333;
+    width: 100%;
+    overflow-x: hidden;
 }
 
-@media(prefers-color-scheme: dark) {
+h1 {
+    font-family: industry-inc-3d, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vw;
+    word-wrap: anywhere;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 1s;
+}
+
+h2 {
+    font-family: industry-inc-inline-stroke, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(13px + 1vw);
+    margin-top: 1em;
+    padding-left: 1vw;
+    max-width: 60%;
+    animation: fadeIn 1.5s;
+}
+
+h3 {
+    font-family: industry-inc-inline-stroke, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(13px + 1vw);
+    padding-left: 1vw;
+}
+
+p {
+    font-family: atten-new, sans-serif;
+    line-height: 1.75em;
+    font-style: normal;
+    font-size: calc(10px + 1vw);
+    padding-left: 1vw;
+    max-width: 60%;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #666;
+}
+
+input, button {
+    max-width: 80%;
+}
+
+.desc {
+    margin-top: 2em;
+    animation: fadeIn 2.5s;
+}
+
+.but-wait-theres-more {
+    margin-top: 14em;
+    animation: fadeIn 4s;
+    margin-bottom: 14em;
+}
+
+.ben {
+    z-index: -1000;
+    position: absolute;
+    right: -20vw;
+    width: 65vw;
+    animation: fadeIn 6s;
+}
+
+.ben img {
+    width: 100%;
+    margin-bottom: -50%;
+    image-rendering: crisp-edges;
+}
+
+@media (prefers-color-scheme: dark) {
     body {
         background-color: #333;
+        color: #fff;
+    }
+
+    .ben img {
+        filter: invert(100%);
+    }
+
+    a {
+        color: #ccc;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        filter: blur(100px);
+    }
+    100% {
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
