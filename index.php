@@ -41,6 +41,20 @@
         <!-- Look, man, we all gotta make a buck -->
         <meta name="monetization" content="$ilp.uphold.com/7yhraRBZn2GY">
 
+        <!-- Share me on Twitter -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@benwerd" />
+        <meta name="twitter:title" content="Ben Werdmüller" />
+        <meta name="twitter:description" content="Ben Werdmüller is an engineer, founder, investor, and writer." />
+        <meta name="twitter:image" content="https://benwerd.com/images/heyitsben.jpg" />
+
+        <!-- I'm an OG -->
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Ben Werdmüller" />
+        <meta property="og:site_name" content="Ben Werdmüller" />
+        <meta property="og:image" content="https://benwerd.com/images/heyitsben.jpg" />
+        <meta property="og:description" content="Ben Werdmüller is an engineer, founder, investor, and writer." />
+
         <!-- I am spying on you. Sorry / not sorry -->
         <script type="text/javascript">
             var _paq = window._paq = window._paq || [];
